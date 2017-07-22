@@ -1,0 +1,552 @@
+    1  su - academia
+    2  exit
+    3  su - academia
+    4  exit
+    5  ls --all
+    6  ls --all -w 40
+    7  ls --all -w 40 -t 20
+    8  ls --all  -t 20
+    9  ls -t 20
+   10  ls -T 20
+   11  ls --all -w 40 -T 20
+   12  ls --all -w 40 -T 2
+   13  !
+   14  ls 
+   15  !
+   16  cd !
+   17  exec ls
+   18  sudo apt-get terminator
+   19  exec top+
+   20  exec top
+   21  exec ssh
+   22  echo $VAR2
+   23  nodejs
+   24  python
+   25  uname -e
+   26  uname 
+   27  uname -a
+   28  ls | a.txt
+   29  ls | pwd
+   30  pwd
+   31  pwd > 4.5
+   32  ls
+   33  pwd -L
+   34  pwd -LP
+   35  pwd -P
+   36  ls -a
+   37  cd /
+   38  ls
+   39  pwd
+   40  pwd 
+   41  pwd
+   42  cd /dev
+   43  pwd -L
+   44  python
+   45  cd input/
+   46  cat mouse0
+   47  ls
+   48  nano
+   49  clear
+   50  man 
+   51  man ls
+   52  man python
+   53  info
+   54  info ls
+   55  ls -h
+   56  ls -hal
+   57  info ls
+   58  man ls
+   59  awk ls
+   60  man awk
+   61  man awk 1
+   62  man awk 5
+   63  man -k awk
+   64  info awk
+   65  cd /usr/share
+   66  ls
+   67  cd doc
+   68  ls
+   69  cd passwd
+   70  ls
+   71  apropos ls
+   72  history
+   73  nano ~/.bashrc
+   74  ls
+   75  pwd
+   76  cd /etc
+   77  ls
+   78  ls | grep bash
+   79  nano 
+   80  ls
+   81  history
+   82  !
+   83  history
+   84  ls sudo apt-get install awscli
+   85  vi
+   86  vim
+   87  vimtutor
+   88  nano 
+   89  ls
+   90  nano TEST
+   91  cat 
+   92  dsdf
+   93  las
+   94  ls
+   95  nano test.sh 
+   96  vim test.sh 
+   97  dmesg | less
+   98  cat /v
+   99  cat /var/syslog
+  100  cat /var/log/syslog
+  101  cat /var/log/syslog | less
+  102  ls
+  103  nano examples.desktop 
+  104  nano examples.desktop >> TEST
+  105  cat examples.desktop >> TEST
+  106  nano TEST
+  107  brew install gdrive
+  108  ls -r
+  109  ls -lhr
+  110  ls -lhR
+  111  tree
+  112  ls -i
+  113  ls -li
+  114  ls
+  115  rm TEST*
+  116  ls
+  117  exit
+  118  ls
+  119  gzip test* > comp.gz
+  120  ls
+  121  gunzip comp.gz > comp
+  122  gunzip -r comp.gz > comp
+  123  gzip -r test* > comp.gz
+  124  ls
+  125  ls -al com*
+  126  bzip2 TEST -v
+  127  ls -al
+  128  ls
+  129  man bzip
+  130  bzip2 Escritorio/*
+  131  ls
+  132  bzip2 Escritorio
+  133  find / test --name
+  134  man find
+  135  find / test -name TEST
+  136  find / test -name TEST || grep denegado
+  137  git
+  138  ls -ld
+  139  umask
+  140  ls
+  141  head -n -1 test.sh.gz 
+  142  head -n -1 comp
+  143  head -n -1 /usr/share/*
+  144  touch t
+  145  nano t
+  146  head -n -1 t
+  147  cat t
+  148  head -n -1 t
+  149  split t
+  150  ls
+  151  tr 
+  152  man tr
+  153  dup t
+  154  uniq t
+  155  unique t
+  156  dedup t
+  157  format t
+  158  od t
+  159  pager t
+  160  fmt t
+  161  nl t
+  162  sort t
+  163  sort t >> t
+  164  cat t
+  165  print t
+  166  pr t
+  167  format t
+  168  header t
+  169  pr t
+  170  print t
+  171  format t
+  172  ls
+  173  format t
+  174  pr t
+  175  la
+  176  print t
+  177  print "t"
+  178  ls ~ > /tmp/home.txt
+  179  date >> /tmp/home.txt
+  180  cat /tmp/home.txt
+  181  ls ~
+  182  ps
+  183  bash
+  184  zbash
+  185  ps
+  186  ps -aux
+  187  ps -au
+  188  ps x
+  189  ps -au
+  190  jobs
+  191  sleep 1000
+  192  jobs
+  193  fg 1
+  194  sleep 100
+  195  |kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+  196  kill -l
+  197  nohup apt-get
+  198  nohup sleep 100
+  199  nohup sleep 100 &
+  200  ls
+  201  nano nohup.out 
+  202  ls *
+  203  ls -l *
+  204  pandoc -r latex -w html -o outfile.html infile.tex
+  205  csh
+  206  dash
+  207  ls /etc -l
+  208  cat /etc/shadow
+  209  sudo cat /etc/shadow
+  210  hello
+  211  function g { wget www.nacion.com};  function g { wget www.nacion.com };  }; }
+  212  g
+  213  cd /usr/share
+  214  ls
+  215  cd dict
+  216  ls
+  217  cd spanish
+  218  grep 'a?' spanish
+  219  grep 'a*' spanish
+  220  grep a{1} spanish
+  221  grep a{0,1} spanish
+  222  grep a{0,} spanish
+  223  grep a{1,} spanish
+  224  egrep 'a*' spanish
+  225  grep -e 'a*' spanish
+  226  grep -ie 'a*' spanish
+  227  grep -oe 'a*' spanish
+  228  grep -re 'a*' spanish
+  229  grep -ve 'a*' spanish
+  230  grep -o 'a*' spanish
+  231  grep -i 'a*' spanish
+  232  grep -r 'a*' spanish
+  233  grep -v 'a*' spanish
+  234  grep a{5}
+  235  grep a{5} spanish
+  236  grep a{2} spanish
+  237  grep a{0,} spanish
+  238  ls
+  239  grep a{0,} spanish 
+  240  vi spanish 
+  241  jobs
+  242  work
+  243  list
+  244  process
+  245  nokill date
+  246  nokill wc
+  247  bg wc
+  248  nohup wc
+  249  top
+  250  renice
+  251  ps
+  252  free
+  253  man bzip2
+  254  cpio
+  255  cpio -v
+  256  man cpio
+  257  vi spanish 
+  258  uname -v
+  259  uname -n
+  260  uname -x
+  261  uname -k
+  262  uname -s
+  263  uname -n
+  264  uname -x
+  265  uname -k
+  266  uname -s
+  267  pwd
+  268  bash
+  269  man 5 passwd
+  270  man killall
+  271  mkdir a
+  272  cd a
+  273  touch b
+  274  cd ..
+  275  rm -R
+  276  rm -R a
+  277  ls
+  278  ls -l
+  279  gunzip man 5 passwd
+  280  gunzip test.sh.gz 
+  281  ls
+  282  man dd
+  283  man 5 passwd test.sh
+  284  head -n -1 test.sh
+  285  nano test.sh
+  286  head -n -1 test.sh
+  287  nano test.sh
+  288  head -n -1 test.sh
+  289  man unique
+  290  man uniq
+  291  vi test.sh
+  292  man kill
+  293  echo "Permiso de acceso a sudo" | mail -s "Solicitud de permiso" user1
+  294  echo "Por favor, revisar backup" | mail -s "Rev backup" user1
+  295  echo "Ocupo acceso a dev.tarro.io" | mail -s "Acceso a nuevo servidor" user1
+  296  ssh moises.bonilla@143.137.148.1
+  297  su - academia
+  298  su - user1
+  299  ssh moises.bonilla@143.137.148.1
+  300  nmap estudiantes
+  301  su - academia
+  302  grep /etc/services 
+  303  cat  /etc/services 
+  304  sudo apt-get ftpd
+  305  su - academia
+  306  echo $VAR1
+  307  exit
+  308  echo $VAR1
+  309  otro_VAR=casa
+  310  exit
+  311  cat /etc/passwd
+  312  cut -d ":" -f1,4 /etc/passwd
+  313  cd /tmp/
+  314  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  315  ls -l
+  316  split -b 2 data.out
+  317  ls
+  318  ls -l
+  319  cat xa* > data2.out
+  320  ls -l
+  321  ls -lh
+  322  split -n 4 data.out salidas.
+  323  ls - l
+  324  ls -l
+  325  echo hola
+  326  pwd
+  327  ls /
+  328  alias my_year= "cal 2017"
+  329  alias my_year="cal 2017"
+  330  my_year
+  331  cal
+  332  dpkg --get-selections | grep linux
+  333  which ls
+  334  ls -l `which ls`
+  335  pwd
+  336  ls /home
+  337  ls -lh
+  338  history
+  339  ls -lh
+  340  man ls
+  341  uname
+  342  uname -a
+  343  uname -n
+  344  clear
+  345  VAR1=caso
+  346  echo $var1
+  347  echo $VAR1
+  348  VAR1=OTRO
+  349  echo este es $VAR1 caso
+  350  echo 'este es $VAR1 caso'
+  351  mkdir /home/prueba1
+  352  mkdir $home/prueba1
+  353  mkdir $HOME/prueba1
+  354  ls $HOME
+  355  MKDIR $HOME/prueba1/prueba2
+  356  mkdir $HOME/prueba1/prueba2
+  357  ls *.txt
+  358  PROYECT=$(pwd)
+  359  echo $PROYECT 
+  360  nano prog1.sh
+  361  mv prog1.sh /tmp/
+  362  ls /tmp
+  363  cd /tmp
+  364  ls
+  365  chmod 750 prog1.sh 
+  366  ls
+  367  ls -l
+  368  ./prog1.sh 
+  369  mv prog1.sh programa_identificador.sh
+  370  ./programa_identificador.sh 
+  371  echo $PATH
+  372  cd
+  373  ls
+  374  mkdir bin
+  375  ls
+  376  cp /tmp/programa_identificador.sh bin/
+  377  ls bin/
+  378  programa_identificador.sh 
+  379  mv bin/programa_identificador.sh  bin/prog1
+  380  ls bin/
+  381  PATH=/opt/bin:$PATH
+  382  $PATH
+  383  ECHO $PATH
+  384  echo $PATH
+  385  clear
+  386  nano .bashrc
+  387  cowsay HOLA
+  388  ls -al
+  389  nano .bashrc
+  390  ip -4 addr
+  391  VAR1=5
+  392  VAR2=otro
+  393  mi_var=caso
+  394  echo $VAR1 esta es otra salida $VAR2 en mi $mi_var
+  395  bash
+  396  export VAR1
+  397  bash
+  398  echo $otro_VAR
+  399  set | less
+  400  env | less
+  401  env | grep var
+  402  env | grep VAR
+  403  set | grep VAR
+  404  set | grep -i VAR
+  405  history
+  406  env | less
+  407  cp .bash_history Documentos/history-clase1.txt
+  408  ls
+  409  clear
+  410  id
+  411  man fdisk
+  412  su - academia
+  413  man ln
+  414  mas less
+  415  mas lees
+  416  mas less
+  417  clear
+  418  man ls
+  419  man ln
+  420  su - academia
+  421  clear
+  422  pwd
+  423  ls
+  424  find . -name
+  425  find . -name Descarga
+  426  find . -name Descargas
+  427  find / -name Descargas
+  428  find . -name Des*
+  429  find . -name 'Des*'
+  430  find /etc -name '*.config'
+  431  mkdir Descuentos
+  432  find . -name 'Des*'
+  433  whereis grep
+  434  whereis sudo
+  435  whereis -m sudo
+  436  whereis -b sudo
+  437  where is ihs
+  438  whereis --help
+  439  whereis -bm ls tr -m gcc
+  440  where is passwd
+  441  whereis passwd
+  442  whereis -b passwd
+  443  type echo
+  444  type ls
+  445  which echo
+  446  type -a echo 
+  447  type -a ls
+  448  ls -l
+  449  cd
+  450  mkdir test
+  451  cd test
+  452  touch file1
+  453  ls
+  454  vim file1
+  455  ls
+  456  vim file2
+  457  clear
+  458  su - academia
+  459  git config --global user.mail "george7.7@hotmail.com"
+  460  cat ~/.gitconfig 
+  461  cd tmp
+  462  cd /tmp/
+  463  ls
+  464  git clone https://github.com/jorge077/LXS1_jorge.segura.git
+  465  ls
+  466  git clone https://github.com/jorge077/LXS1_jorge.segura.git REPOremoto
+  467  ls
+  468  cd LXS1_jorge.segura/
+  469  cd ../
+  470  git clone https://github.com/jorge077/LXS1_jorge.segura.git
+  471  ls -l
+  472  rm -r-f LXS1_jorge.segura/
+  473  rm -Rf LXS1_jorge.segura/
+  474  ls
+  475  git clone https://github.com/jorge077/LXS1_jorge.segura.git
+  476  cd test/
+  477  ls
+  478  rm file*
+  479  ls
+  480  mkdir src
+  481  mkdir docs
+  482  mkdir misc
+  483  mkdir tools
+  484  touch README.md
+  485  tree
+  486  vim .gitignore
+  487  ls
+  488  ls -a
+  489  cat .gitignore 
+  490  touch {docs,src,misc,tools}/.gitignore
+  491  tree
+  492  touch {docs,src}/.gitignore
+  493  touch {docs,src,misc,tools}/.gitignore
+  494  tree -a
+  495  echo '*.swp' >> .gitignore
+  496  cat .gitignore 
+  497  git init 
+  498  tree .git
+  499  git add --all
+  500  git status
+  501  git commit -m "Inicializacion de Repo de Linux"
+  502  history
+  503  git config --global user.email "george7.7@hotmail.com"
+  504  ls
+  505  ls -a
+  506  cat ../.gitconfig 
+  507  ls -a
+  508  cd ..
+  509  ls
+  510  ls -a
+  511  cd test/
+  512  ls -a
+  513  git commit -m "Inicializacion del Repo Linux"
+  514  git log
+  515  ifconfig > misc/interfaces
+  516  dmesg > misc/kernel
+  517  tree -a
+  518  df -lh 
+  519  df -lh >docs/espacios
+  520  tree -a
+  521  git status
+  522  history 
+  523  git status
+  524  git add misc/interfaces 
+  525  git add docs/espacios 
+  526  git status
+  527  git commit -m "agrego archivos de espacios e interfaces"
+  528  git log
+  529  cp /etc/apt/sources.list misc/
+  530  git status
+  531  vim docs/espacios 
+  532  git status 
+  533  git diff
+  534  git diff docs/espacios
+  535  git add docs/espacios 
+  536  git add misc/kernel 
+  537  git status 
+  538  git commit -m "Modificacion del header de espacios y agrego archivo de kernel"
+  539  git status 
+  540  git log
+  541  git remote add origin https://github.com/jorge077/LXS1_jorge.segura.git
+  542  git remote -v
+  543  git push -u origin master
+  544  ls
+  545  git add misc/sources.list 
+  546  git status
+  547  git commit -m "Agrego Sources.list"
+  548  git push -u origin master
+  549  git pull origin master 
+  550  cd test/
+  551  cd misc/
+  552  history > history_Clase2.txt
