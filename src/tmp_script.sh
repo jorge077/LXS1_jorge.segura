@@ -29,4 +29,8 @@ if [[ s == $RESP  ]]
 	echo HOLA $NOMBRE, su correo es $EMAIL
 fi
 
+echo -en "${YELLOW}Agregando Configuracion de git para el usuario $NOMBRE${RESET}"
+sudo su - estudiantes -c "git config --global user.name \"$NOMBRE\""
+sudo su - estudiantes -c "git config --global user.name \"$EMAIL\""
+sudo su - estudiantes -c "git config --global core.editor vim"
 
